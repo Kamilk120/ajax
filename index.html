@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>nie wiem co</title>
+        <link rel="shortcut icon" type="image/ico" href="open-book.ico"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>        
+    </head>
+    <header>
+        <div class="logo">
+            <p>Session</p>
+        </div>
+    </header>
+    <body>
+        <div class="schemat">
+            <button onclick="co()">kliknij </button>
+            <div class="box">
+                <span>wpisz tu jakieś imie</span>
+            </div>
+            <div class="box">
+                <input type="text" class="aree" name="ses" id="aree" onkeyup="cos(this.value, 'box')" autocomplete="off" placeholder="jeszcze nic tu nie ma wpisz coś">
+            </div>
+            <div class="box" id="box">
+            </div>
+        </div>
+        <script src="./ajax_xhr.js"></script>
+        <script src="./ajax_fetch.js"></script>
+    </body>
+</html>
